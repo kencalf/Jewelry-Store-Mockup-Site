@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+        	<link href="css/standard.css" type="text/css" rel="stylesheet"><!--Styles-->
+            <link href="css/image_hover.css" type="text/css" rel="stylesheet"><!--Image_Hover_Styles-->
+        	<script type="text/javascript" src="jq/jquery.js"></script><!--Jquery-->
+            <script type="text/javascript" src="jq/drop.js"></script><!--Drop Down Menus-->
+            
+            
+            <script language="Javascript" type="text/javascript">
+        <!--
+        function validate(form) {
+        
+        var submitform = true;
+        var errortext = "The following errors were encountered:\n\n";
+        	
+		
+		if (form.firstname.value == '') {
+        submitform = false;
+        errortext += "First name is a mandatory field\n";
+        }
+
+		if (form.lastname.value == '') {
+        submitform = false;
+        errortext += "Last name is a mandatory field\n";
+        }
+
+        if (form.phone.value == '') {
+        submitform = false;
+        errortext += "Phone is a mandatory field\n";
+        }
+        
+        if (form.email.value == '') {
+        submitform = false;
+        errortext += "Email Address is a mandatory field\n";
+        } else if (!form.email.value.match(/^[A-Za-z0-9_-]+([.][A-Za-z0-9_-]+){0,4}[@][A-Za-z0-9_-]+([.][A-Za-z0-9_-]+){1,3}$/)) {
+        submitform = false;
+        errortext += "Please enter a valid email address\n";
+        }
+        if (submitform == false) {
+        alert(errortext);
+        return false;
+        }
+        
+        }
+        //-->
+        </script>
+
+            
+            
+				</head><body>
+                
+                		<header>
+                    		<img src="pics/logo.jpg" id="logo">   
+                        </header>
+ 
+<!--Navigation-------------------------------------------------------->
+<ul id="main-menu">
+		<li><a href="1.html" style="font-size:34px; font-family:"CAC Champagne";">Jewelry</a>
+			<ul>
+				<li><a href="watches.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">Watches</a></li>
+                <li><a href="designers.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">Designer Jewelry</a></li>
+                <li><a href="custom.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">Custom Jewelry</a></li>
+			</ul>
+		</li>
+
+        <li><a href="#" style="font-size:34px; font-family:"CAC Champagne";">Rings</a>
+			<ul>
+				<li><a href="rings.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">Engagement Rings</a></li>
+                <li><a href="diamonds.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">Our Diamonds</a></li>
+				<li><a href="gia.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">GIA Certified</a></li>
+				<li><a href="egl.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">EGL Certified</a></li>
+			</ul>
+		</li>
+        
+        <li><a href="#" style="font-size:34px; font-family:"CAC Champagne";">Services</a>
+			<ul>
+				<li><a href="repairs.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">Repairs</a></li>
+				<li><a href="specials.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">Specials</a></li>
+			</ul>
+		</li>
+        
+        <li><a href="#" style="font-size:34px; font-family:"CAC Champagne";">References</a>
+			<ul>
+				<li><a href="about.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">About</a></li>
+				<li><a href="hours.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">Hours/Directions</a></li>
+                <li><a href="contact.html" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;">Contact</a></li>
+			</ul>
+		</li>
+	</ul>
+    
+    
+<div class="panel" style="font-family:Verdana, Geneva, sans-serif;">
+<h1> Contact Us</h1>
+
+
+
+
+
+
+
+
+ <p style="text-align:center;">Email: <a href="mailto:janvierjewelers@verizon.net" style="color:#FFF;">janvierjewelers@verizon.net</a></p>
+
+
+
+
+<td width=330 align=left valign=top>   
+       <p align=center>YOUR PRIVACY IS A   PRIORITY!<br />
+        The information you submit to us will remain private and will not   be shared 
+        with or sold to any other companies.<br /> 
+            <!-- janvierjewelers@verizon.net -->      
+        <form action="mailto:kctvideo@aol.com" method="post" name="form" id="form" onSubmit="return validate(form);">
+        
+        
+          <table width="600" border="0" cellspacing="7" cellpadding="0" align=center>
+            <tr>
+              <td width="51%"><div align="left">*First Name:</div></td>
+              <td width="49%" align=left><label>
+                <input type="text" name="firstname" id="firstname" />
+              </label></td>
+            </tr>
+            <tr>
+              <td><div align="left">*Last Name:</div></td>
+              <td align=left><label>
+                <input type="text" name="lastname" id="lastname" />
+              </label></td>
+            </tr>
+            <tr>
+              <td><div align="left">Address:</div></td>
+              <td align=left><input type="text" name="address" id="address" /></td>
+            </tr>
+            <tr>
+              <td><div align="left">City, State & Zip:</div></td>
+              <td align=left><INPUT name="city" size=16 id=city>&nbsp;<INPUT name="state" maxLength=2 size=2 id="state">&nbsp;<INPUT name="zip" size=10 id=zip></td>
+            </tr>
+            
+            <tr>
+              <td><div align="left">*Phone Number:</div></td>
+              <td align=left><input type="text" name="phone" id="phone" /></td>
+            </tr>
+            <tr>
+              <td><div align="left">*Email Address:</div></td>
+              <td align=left><input type="text" name="email" id="email" /></td>
+            </tr>
+            <tr>
+              <td colspan=2 height=20></td>
+            </tr>
+            
+            <tr>
+              <td valign="top"><div align="left">What can we help you with?</div></td>
+              <td align=left><label>
+                <textarea name="comments" id="comments" cols="40" rows="5"></textarea>
+              </label></td>
+            </tr>
+            <tr>
+              <td valign="top">&nbsp;</td>
+              <td><label>
+                <input type="submit" name="button" id="button" value="Submit" />
+              </label></td>
+            </tr>
+          </table>
+          <br />
+        </form>
+</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+ 
+ 
+ 
+ 
+<!--END of HTML------------------->
+</body></html>

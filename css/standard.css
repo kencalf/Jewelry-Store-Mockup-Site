@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+
+@font-face {
+	font-family: "CAC Champagne";
+	src: url(../cac.ttf);
+}
+
+
+@font-face {
+	font-family: "Alegreya SC Italic";
+	src: url(../Alegreya.otf);
+}
+
+
+@font-face {
+	font-family: "Cantarell Regular";
+	src: url(../Cantarell-Regular.ttf);
+}
+
+
+@font-face {
+	font-family: RawengulkSans;
+	src: url(../RawengulkSans-094.otf);
+}
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+html{
+	
+	width:100%;
+	
+	background: rgb(125,126,125); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	}
+
+body{
+	margin: 0px auto;
+	background: url(../pics/texture1.jpg) repeat;	
+	text-align:center;
+	height:1200px;
+	width:100%;
+	padding:0px;
+	color:white;
+	font-family: "CAC Champagne";
+	font-size:24px;
+	z-index:-2;
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 1);
+}
+
+
+h1{ 
+	color:rgba(234,185,45,1);
+	font-size: 28px;
+	font-family: RawengulkSans;
+	text-transform:uppercase;
+	height:auto;
+	padding:8px;
+	letter-spacing:0px;
+	text-shadow: 0px 0px  5px rgba(0,0,0,1);
+	box-shadow:0 0 10px 1px rgba(234,185,45,1);
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+	margin-top:0px;
+	background: rgb(0,0,0); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(69,72,77,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(100%,rgba(69,72,77,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 ); /* IE6-9 */
+}
+
+h2{ 
+    font-size:30px;
+	text-shadow: 1px 1px 10px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+
+p{
+	font-family: "Cantarell Regular";
+	font-size:15px;
+	margin:0px auto;
+	text-align:justify;
+	background:rgba(0,0,0,1);
+	width:900px;
+	top:0;
+	padding:20px;
+	border-radius:0px;
+	box-shadow:0 0 10px rgba(0,0,0,1);
+	color:rgba(204,204,204,1);
+}
+
+
+#logo{
+	left:0;
+	top:0;
+	z-index:9999;
+	width:600px;
+	
+}
+
+header{
+	background:black;
+	height:200px;
+}
+
+
+
+
+
+#footer p{
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	width:auto;
+	margin:0px auto;
+	font-size:16px;
+}
+
+/*----------------------------------Navigation------------------------------------------------------*/
+
+
+#main-menu{
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	-webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 1);
+	margin-top:0px;
+	margin-left:0px auto;
+	margin-right:0px auto;
+	position: absolute;
+	z-index:9999;
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(234,185,45,1) 53%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,1)), color-stop(53%,rgba(234,185,45,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(234,185,45,1) 53%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(234,185,45,1) 53%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(234,185,45,1) 53%,rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(234,185,45,1) 53%,rgba(0,0,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+	width:97%;
+}
+
+
+
+#main-menu, #main-menu > li > ul {list-style: none; line-height:1.5;}
+#main-menu > li { display:inline-block;}
+#main-menu li > a {
+	display: inline-block;
+	background:none;
+	color: #FFF;
+	width:130px;
+	font-size:13px;
+	text-decoration: none;
+	font-family: "CAC Champagne";
+	text-align:left;
+	margin-bottom:0px;
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+	text-shadow: 1px 1px 10px #000000;
+		
+	
+}
+#main-menu li:hover > a { 
+	
+    filter: dropshadow(color=#FFF, offx=1, offy=1);
+	text-shadow: 1px 1px 10px #FFF;
+	color:#FFF;
+}
+
+
+#main-menu > li > ul {
+	position: absolute;
+	display: none;
+	padding: 10px;
+	z-index: 10;
+	background:rgba(0,0,0,1);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	-webkit-box-shadow: inset  0px 2px 20px 0px rgba(0, 0, 0, 1);
+	box-shadow: inset  0px 2px 20px 0px rgba(0, 0, 0, 1);
+	height:auto;
+	line-height:1;
+	width:auto;
+	margin-top:1px;
+	
+}
+
+
+#main-menu > li:hover > ul {
+	display: block;
+	z-index: 100;
+}
+
+/*---------------------------------Panels------------------------------------------------------*/
+.panel{
+	position: absolute;
+	overflow-y: auto;
+	overflow-x: auto;
+	background:none;
+	width:100%;
+	height:auto;
+	margin: 0px auto;
+	opacity: 1;
+	z-index:60;
+	padding-top:50px;
+	text-align:center;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.panel:target{opacity: 1;}
+
+/*----------------------------------Content-----------------------------------------------------*/
+
+
+
+.repairs{
+	list-style: none;
+	display:inline-block;
+	width:270px;
+	margin-left:10px;
+	margin-top:-10px;
+	height:700px;
+	padding:5px;
+	background:rgba(0,0,0,1);
+	float:left;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	border-radius:3px;
+	line-height:2;
+	box-shadow:0 0 10px rgba(0,0,0,1);
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+	color:rgba(204,204,204,1);
+}
+
+
+.repairs h2{
+	line-height:1.2;
+	font-family:"Alegreya SC Italic" ;
+	color:rgba(255,255,255,1);
+}
+
+
+.repairs img{
+	
+	box-shadow:0 0 20px black;
+}
+
+
+
+
+
+ /*--------------------------------------------------------------------------------------------------------*/
+  #slide {
+	margin-top:-10px;
+	width:950px;
+	background:#FFF;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:1px;
+	box-shadow:0 0 20px 5px black;	
+	border:2px solid rgba(234,185,45,1);
+}
+  
+  #Slideshow1 img { 
+     width:950px;
+     height:auto;
+}
+  
+  
+  #home{
+	  -webkit-column-count:1;
+	  -moz-column-count:1;
+	  column-count:1;
+	  line-height:1.7;
+	  font-size:14;
+	  text-align:left;
+	  background:rgba(0,0,0,1);
+	  width:900px;
+	  border-right:5px solid #000;
+	  border-radius:0px;
+	  margin-left:auto;
+	  margin-right:auto;
+	  color:rgba(204,204,204,1);
+  }
+  
+
+  
+  
